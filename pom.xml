@@ -15,23 +15,36 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.3.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>5.3.9</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.2.0.RELEASE</version>
+            <version>5.3.9</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>5.2.3.RELEASE</version>
+            <version>5.3.9</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.scalatestplus</groupId>
             <artifactId>junit-4-12_2.13</artifactId>
-            <version>3.1.1.0</version>
+            <version>3.3.0.0-SNAP2</version>
             <scope>test</scope>
         </dependency>
 
